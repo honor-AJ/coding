@@ -1,3 +1,6 @@
+from curses.ascii import isupper
+
+
 for i in range(10):
     print(i)
 
@@ -26,3 +29,19 @@ w=True
 while w:
     print("apple")
     w=False
+
+x = "apple"
+x.isupper()
+
+if not x.isupper():
+    print("not upper")
+
+x=10
+if x==10:
+    print(x)
+
+if "f" in "jerey":
+    print("f")
+
+
+

@@ -20,7 +20,7 @@ print(x)
 
 for i in range(5):
     print(i)
-x = bool(-1)
+x=bool(-1)
 print(x)
 x=bool(1)
 print(x)
